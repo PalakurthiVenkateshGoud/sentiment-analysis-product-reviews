@@ -1,0 +1,42 @@
+# Sentiment Analysis on Product Reviews
+
+### Overview
+
+In this project, I analyzed customer reviews from the Amazon Fine Food Reviews dataset to understand customer sentiment. The objective was to classify reviews into Positive, Negative, and Neutral categories and extract meaningful business insights from the data.
+
+### Approach
+
+I began by loading and exploring the dataset, followed by cleaning the data by removing null values and duplicates. I focused on the relevant columns (Text and Score) for sentiment analysis.
+
+I used the TextBlob library to calculate sentiment polarity scores and classified each review accordingly. Additionally, I performed feature engineering by creating new features such as review length and word count to enhance the analysis.
+
+### Analysis & Visualizations
+
+I created multiple visualizations including:
+
+* Sentiment distribution (bar chart)
+* Sentiment percentage (pie chart)
+* Rating vs sentiment comparison
+* Polarity distribution histogram
+* Review length vs sentiment analysis
+* Word cloud for negative reviews
+
+These visualizations helped in understanding customer behavior and identifying patterns in feedback.
+
+### Key Insights
+
+* The majority of reviews are positive, indicating overall customer satisfaction.
+* Sentiment polarity increases with higher ratings, confirming a strong relationship between rating and sentiment.
+* Negative reviews frequently highlight issues related to product quality, taste, and packaging.
+* Longer reviews tend to be more detailed and are often associated with negative feedback.
+* Some reviews with moderate ratings show mixed sentiment, indicating nuanced customer opinions.
+
+### Business Recommendations
+
+* Improve product quality and packaging based on recurring negative feedback.
+* Monitor customer reviews regularly using sentiment analysis for faster decision-making.
+* Focus on addressing key complaint areas to improve customer satisfaction and retention.
+
+### Conclusion
+
+This project demonstrates how sentiment analysis can be used to transform raw customer feedback into actionable insights, enabling data-driven decision-making for businesses.
