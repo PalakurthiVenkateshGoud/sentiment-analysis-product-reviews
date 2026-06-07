@@ -46,6 +46,11 @@ summary.pdf
 Amazon Fine Food Reviews Dataset:
 https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
+## Live Dashboard
+
+[View Live Dashboard](https://sentiment-analysis-rev-dashboard.streamlit.app/)
+
+
 ## Author
 
 Palakurthi Venkatesh Goud
