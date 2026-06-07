@@ -85,12 +85,12 @@ elif page == "Sentiment Analytics":
     c1, c2 = st.columns(2)
 
     with c1:
-        st.image("charts/bar_chart.png")
+        st.image("bar_chart.png")
 
     with c2:
-        st.image("charts/pie_chart.png")
+        st.image("pie_chart.png")
 
-    st.image("charts/rating_vs_sentiment.png")
+    st.image("rating_vs_sentiment.png")
 
 elif page == "Advanced Analysis":
 
@@ -99,12 +99,12 @@ elif page == "Advanced Analysis":
     c3, c4 = st.columns(2)
 
     with c3:
-        st.image("charts/polarity_distribution.png")
+        st.image("polarity_distribution.png")
 
     with c4:
-        st.image("charts/review_length_vs_sentiment.png")
+        st.image("review_length_vs_sentiment.png")
 
-    st.image("charts/negative_wordcloud.png")
+    st.image("negative_wordcloud.png")
 
 elif page == "Insights":
 
